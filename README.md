@@ -42,7 +42,7 @@ Flags:
   -k, --key string    API key with Admin rights from Grafana
 ```
 
-or docker run:
+or using docker:
 
 ```bash
 docker run --rm mrlioncub/hamara
@@ -57,7 +57,7 @@ hamara export --host=localhost:3000 --key=$GRAFANA_API_KEY > datasources.yaml
 cat datasources.yaml
 ```
 
-or docker run:
+or using docker:
 
 ```bash
 export GRAFANA_API_KEY=<your API key here>
